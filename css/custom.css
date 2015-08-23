@@ -1,0 +1,175 @@
+﻿/* This is a custom css to accessorize bootstrap */
+
+/*---Images Preload---*/
+div.preload { 
+  background: url(../img/bg_center.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  visibility:hidden;
+}
+/*---End of Image Preload---*/
+
+/*---Main Backgrounds---*/
+body{
+	margin: 0px;
+}
+.bg1{
+	position:absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height:100%;
+	background-color: #8C92AC;
+}
+.bg2{
+	position:relative;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+}
+
+.main{
+	display: none;
+}
+/*---End of Main Backgrounds---*/
+
+/*---Start of Sections---*/
+top{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+}
+
+mid{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+}
+
+.bottom{
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+}
+/*---End of Sections---*/
+
+/*---Start of Menu Styles---*/
+.menu{
+	position: absolute;
+	top: 20px;
+	right: 10px;
+	float: right;
+}
+
+.menuImg{
+	border-radius: 50% 50%;
+	width: 30px;
+	height: auto;
+	border:thick white solid;
+	box-shadow: 0px 0px 5px black;
+	display: inline;
+	float:right;
+}
+.nav{
+	display:inline;
+	float: left;
+	display: none;
+}
+
+.nav li{
+	display: inline;
+	float: right;
+	margin: 0px 10px 0px 10px;
+	padding: 10px 20px 10px 20px;
+	color: white;
+	border: 3px solid white;
+}
+
+.nav li:hover{
+	text-shadow: 0px 0px 3px black;
+	box-shadow: 0px 0px 3px black;
+	cursor: pointer;
+}
+/*---End of Menu---*/
+
+.glow{
+	position: relative;
+	top: calc(50% - 2px);
+	left: calc(50% - 2px);
+	width: 4px;		
+	height: 4px;
+	background-color:white;
+	border-radius: 50%;
+	box-shadow: 0px 0px 10px white,
+				0px 0px 50px white,
+				0px 0px 100px white,
+				0px 0px 200px white,
+				0px 0px 400px white,
+				0px 0px 600px white,
+				0px 0px 800px white,
+				0px 0px 1000px white;
+	display: none;
+}
+
+.bannerStrip{
+	position: relative;
+	top: 10px;
+	left: 0px;
+	width: 100%;
+	height: 60px;
+	background-color: white;
+	box-shadow: 0px 0px 10px #8C92AC;
+	opacity: 0.6;
+	display: none;
+	z-index: 0;
+}
+
+.brandTag{	
+	position: absolute;
+	top: 0px;
+	left: 5%;
+	width:80%;
+	height: auto;
+	font-family: 'Mr Dafoe', cursive;
+	z-index: 1;
+}
+
+.path {
+ 	fill-opacity: 0;
+ 	visibility:hidden;
+}
+
+.landPageQuote{
+	margin-top: 15%;
+	margin-left: 5%;
+	width: 40%;
+	color: white;
+	opacity: 0.8;
+	font-size: 220%;
+	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	text-shadow: 0px 0px 5px grey;
+}
+
+.initBlind{
+	display: none;
+}
+
+/*---Start of Footer---*/
+footer{
+	position: relative;
+	bottom: 7px;
+	right: 5%;
+	z-index:1;
+	width: 100%;
+	text-align:right;
+	color: white;
+	text-shadow: 0px 0px 1px black;
+	stroke: white;
+	opacity: 0.6;
+}
+/*---End of Footer---*/
